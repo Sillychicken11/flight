@@ -1,0 +1,18 @@
+flight-sim/
+├── index.html
+├── style.css
+├── main.js
+└── models/
+    └── loader.load(
+  'https://cdn.jsdelivr.net/gh/KhronosGroup/glTF-Sample-Models@master/2.0/CesiumAir/glTF/CesiumAir.gltf',
+  function(gltf) {
+    airplane = gltf.scene;
+    airplane.scale.set(1, 1, 1);
+    scene.add(airplane);
+  },
+  undefined,
+  function(error) {
+    console.error('Error loading model:', error);
+  }
+);
+

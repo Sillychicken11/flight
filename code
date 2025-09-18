@@ -1,0 +1,6 @@
+flight-sim/
+├── index.html
+├── style.css
+├── main.js
+└── models/
+    └── (optional later: .glb or .gltf files)
